@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Awesome Player</string>
+    <string name="imgAlbumArt">Album Art</string>
+    <string name="txtSongTitle">Song Title</string>
+    <string name="txtSongArtist">Artist</string>
+    <string name="txtTimestamp">Timestamp</string>
+    <string name="btnPlayPause">Play/Pause</string>
+    <string name="txtVolume">Volume</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+    <item android:drawable="@drawable/newpic" android:duration= "500"/>
+
+    <set android:ordering="sequentially">
+        <set>
+            <objectAnimator
+                android:propertyName="x"
+                android:duration="500"
+                android:valueTo="400"
+                android:valueType="intType"/>
+            <objectAnimator
+                android:propertyName="y"
+                android:duration="500"
+                android:valueTo="300"
+                android:valueType="intType"/>
+        </set>
+        <objectAnimator
+            android:propertyName="alpha"
+            android:duration="500"
+            android:valueTo="1f"/>
+    </set>
+
+
+</animation-list>
+
+
+

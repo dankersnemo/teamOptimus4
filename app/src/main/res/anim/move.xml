@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
+
+
+
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXScale="0"
+        android:toXScale="1"
+        android:fromYScale="0"
+        android:toYScale="1"
+        android:duration="3000"
+        android:pivotX="50%"
+        android:pivotY="0%" >
+        <!-- 50 means pixels, 50% means UI's own 50% position -->
+
+    </scale>
+
+    <translate
+        android:fromYDelta="80%p"
+        android:toYDelta="10%p"
+        android:duration="1000"
+        />
+
+
+</set>
